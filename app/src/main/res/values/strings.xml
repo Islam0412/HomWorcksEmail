@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomWorcksEmail</string>
+    <string name="name">Name</string>
+    <string name="email">Введите ваш Email</string>
+    <string name="zagolovok">Заголовок</string>
+    <string name="text">Введитет сообщение</string>
+</resources>

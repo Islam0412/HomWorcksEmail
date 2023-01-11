@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="24dp"
+        android:paddingStart="10dp"
+        android:hint="@string/email"
+        android:drawableStart="@drawable/ic_baseline_email"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/et_tem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/custom_input"
+        android:paddingStart="10dp"
+        android:drawableStart="@drawable/ic_baseline_list"
+        android:hint="@string/zagolovok"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_input"
+        android:layout_marginTop="6dp"
+        android:paddingStart="10dp"
+        android:hint="@string/text"
+        android:drawableStart="@drawable/ic_baseline_message"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btn_clic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:textSize="32dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
